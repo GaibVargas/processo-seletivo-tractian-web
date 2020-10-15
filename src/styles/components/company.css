@@ -1,0 +1,28 @@
+.company-card {
+  display: flex;
+  justify-content:  space-between;
+  width: 50vw;
+  padding: 0 10px;
+}
+
+.company-info h2 {
+  font-weight: bolder;
+}
+
+.company-info p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.company-card .buttons-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.buttons-container .button-company {
+  width: 85px;
+}
+
+.buttons-container a {
+  margin-right: 5px;
+}

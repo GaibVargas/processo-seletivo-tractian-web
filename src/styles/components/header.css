@@ -1,0 +1,53 @@
+.container {
+  background: #0F2883;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 50px;
+}
+
+header a {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+header h1 {
+  margin: 0;
+  margin-right: 60px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+li + li {
+  margin-left: 50px;
+}
+
+span {
+  font-size: 16px;
+  color: #82aced;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}

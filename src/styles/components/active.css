@@ -1,0 +1,46 @@
+.active-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-buttons .button + .button {
+  margin-top: 5px;
+}
+
+.text h4 {
+  font-weight: bolder;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.text p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .active-card {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .active-info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .active-info .image {
+    margin-right: 5px;
+  }
+
+  .container-buttons .button + .button {
+    margin-top: 0;
+  }
+}
+

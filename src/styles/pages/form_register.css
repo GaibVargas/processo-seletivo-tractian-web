@@ -1,0 +1,53 @@
+.register {
+  padding: 5px;
+}
+
+.register .title {
+  margin-bottom: 15px;
+}
+
+.register .form {
+  border-radius: 2px;
+  background: #fff;
+  padding: 10px 20px 2px;
+}
+
+.register .input {
+  min-width: 450px;
+}
+
+.register label {
+  font-size: 16px;
+}
+
+.register .button span {
+  color: #fff;
+}
+
+.register .button {
+  margin-top: 25px;
+}
+
+.button-container-edit .button-edit {
+  width: 48%;
+}
+
+.button-edit + .button-edit {
+  margin-left: 4%;
+}
+
+.button-edit span {
+  color: #fff;
+}
+
+@media(min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .grid .input {
+    min-width: 300px;
+  }
+}

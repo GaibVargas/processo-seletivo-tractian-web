@@ -1,0 +1,26 @@
+.unit-card {
+  width: 50vw;
+}
+
+.unit-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.no-actives {
+  color: #555;
+  font-size: 12px;
+}
+
+.panel-header {
+  color: black;
+}
+
+.panel-header strong {
+  font-weight: bold;
+}
